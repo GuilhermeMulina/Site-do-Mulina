@@ -1,0 +1,93 @@
+/* Estilo Geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #17153b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Seção de Conteúdo */
+  section h1 {
+    font-size: 2.5rem;
+    color: #0dcaf0;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    color: #f1f1f1;
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #d9d9d9;
+  }
+  
+  section img, section video {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  section .btn {
+    background: #0dcaf0;
+    color: #1c1c1c;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+  }
+  
+  section .btn:hover {
+    background: #0b97c1;
+  }
+  
+  /* Layout Responsivo */
+  @media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    section h1 {
+      font-size: 2rem;
+    }
+  
+    section h2 {
+      font-size: 1.5rem;
+    }
+  
+    section p {
+      font-size: 1rem;
+    }
+  }
+  
